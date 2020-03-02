@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="QT50U Viewer.exe" version="1.0.0.0" publicKeyToken="7ef0ab930334c32b" language="neutral" processorArchitecture="msil" type="win32" />
+  <description asmv2:iconFile="imagens\favicon.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="QT50U Viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="QT50U Viewer.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opções de Manifesto UAC
+          Se desejar mudar o nível de Controle de Conta de Usuário do Windows, substitua o 
+          nó requestedExecutionLevel por um dos seguintes.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Se deseja usar a Virtualização de Arquivos e Registro para compatibilidade 
+         com versões anteriores, exclua o nó requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="QT50U Viewer.exe" size="87552">
+      <assemblyIdentity name="QT50U Viewer" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>7JTZI8U+y9+zM0J6N/xVxOZnwiyeFnqWUdWK7bS++8Y=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KE/Z5zgHG/J9WVdXy0aslrWeoof0JWORNofX6M+Zozs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="imagens\favicon.ico" size="15086">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>KE/Z5zgHG/J9WVdXy0aslrWeoof0JWORNofX6M+Zozs=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="imagens\tank.jpg" size="30053">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>uUkM6Ra6gOPjcSQiIxt70LDBbWgFJDBbCgW245Wv+IM=</dsig:DigestValue>
+    </hash>
+  </file>
+  <file name="QT50U Viewer.exe.config" size="189">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>rl5/qDc7Jz+tB+BIbOv9iMGPlRe6YJwrjmU09dnlPcs=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=AUTOMACAO-PC\automacao" issuerKeyHash="2b50e5f8ca95f3779ed969201534eec04fc7291a" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>lBB4JnbUqJItshE7ZYctQdqDpDwZHkF1TRRWG4h9/fo=</DigestValue></Reference></SignedInfo><SignatureValue>wRf9lz4NP8C3jEvjLF18jOzRnuce7zYQIfIH80CmgMv4E0w7UbJTq5S0l/xLTOXY1ItBwiO4uneow1O4SAWmt/c0Egf0pv7P8L5J7LJl1j/RuHoXjcR+r1PiGy8mPOAHAftMMiNKsx5ivN/S09MKS1EQHED8OTwQzgnkY5yT184=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>0ORcBYY3TRCv71Vgl4O0ZpDd3OYZkG92Gb+L0XbmixfDIHCHrMa391hNjQc4u+K4OoTEV+c8b7oYXOJYb9OLHkvZxV83sJz7XvMvVZjwTay+PcHt3SOH7VqjsAMsegvHwo1z76+wyisWY8Ez10MgAeG3i5lCEZv1tP8i5nndP+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="fafd7d881b56144d75411e193ca483da412d87653b11b22d92a8d47626781094" Description="" Url=""><as:assemblyIdentity name="QT50U Viewer.exe" version="1.0.0.0" publicKeyToken="7ef0ab930334c32b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=AUTOMACAO-PC\automacao</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>k9+YQQaDhGtzsTfXG6vrnYrixDL2s6L1ER8S9/Eocto=</DigestValue></Reference></SignedInfo><SignatureValue>ruvMpYtRrYpjWGnrsFsZpfJ6cJlU3kbWKwV2OBveHnZ3mOuA/xLpVR+A7jCyfqkEDQwf1iF5dQ6F3YPag1lG/AviTS8n4oYCDMEtPXRSSyCAg+H3UsEqxmK0hO5zgwuTzSROUic8qZ0aa5afVQd1nLD2WpBBFljwyOemt2NKO/A=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>0ORcBYY3TRCv71Vgl4O0ZpDd3OYZkG92Gb+L0XbmixfDIHCHrMa391hNjQc4u+K4OoTEV+c8b7oYXOJYb9OLHkvZxV83sJz7XvMvVZjwTay+PcHt3SOH7VqjsAMsegvHwo1z76+wyisWY8Ez10MgAeG3i5lCEZv1tP8i5nndP+U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB8TCCAVqgAwIBAgIQQFu7OD5sY7BNj08xqqfSwDANBgkqhkiG9w0BAQsFADA3MTUwMwYDVQQDHiwAQQBVAFQATwBNAEEAQwBBAE8ALQBQAEMAXABhAHUAdABvAG0AYQBjAGEAbzAeFw0xODA4MjgxMzI1MjZaFw0xOTA4MjgxOTI1MjZaMDcxNTAzBgNVBAMeLABBAFUAVABPAE0AQQBDAEEATwAtAFAAQwBcAGEAdQB0AG8AbQBhAGMAYQBvMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQDQ5FwFhjdNEK/vVWCXg7RmkN3c5hmQb3YZv4vRduaLF8MgcIesxrf3WE2NBzi74rg6hMRX5zxvuhhc4lhv04seS9nFXzewnPte8y9VmPBNrL49we3dI4ftWqOwAyx6C8fCjXPvr7DKKxZjwTPXQyAB4beLmUIRm/W0/yLmed0/5QIDAQABMA0GCSqGSIb3DQEBCwUAA4GBAMA83MlhdflldUcAfyxRl5T/R7xiDu4EulDhz26n4T8kgc7vWXawn8GLW+OjkFpoNDWlU8B0VWQxY+MjPE/lL0qgyB/4PGv+9ZWV5WlCpOlUAnOaXahjflSlhn0Fz9NsB/akZNk/5JSVq0YM92toYF4lIq6vCnXpNSID7vpCPHFr</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

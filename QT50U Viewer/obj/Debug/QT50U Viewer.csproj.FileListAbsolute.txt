@@ -1,0 +1,14 @@
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\bin\Debug\QT50U Viewer.exe.config
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\bin\Debug\QT50U Viewer.exe
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\bin\Debug\QT50U Viewer.pdb
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U_Viewer.Form1.resources
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U_Viewer.Properties.Resources.resources
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.csproj.GenerateResource.Cache
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.csproj.CoreCompileInputs.cache
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.exe
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.pdb
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\bin\Debug\QT50U Viewer.exe.manifest
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\bin\Debug\QT50U Viewer.application
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.csprojResolveAssemblyReference.cache
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.exe.manifest
+C:\Users\automacao\Documents\Visual Studio 2017\projetos\QT50U.Viewer\QT50U Viewer\obj\Debug\QT50U Viewer.application
